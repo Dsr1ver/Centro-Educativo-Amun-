@@ -13,3 +13,10 @@ body {
     margin 0;
 }
 
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0)
+}
