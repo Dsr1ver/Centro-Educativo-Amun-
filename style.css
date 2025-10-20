@@ -34,14 +34,14 @@ button:hover{
 }
 
 header{
-    background-color: rgb(73, 153, 84);
+    background-color: rgb(42, 107, 51);
 }
 
 header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color:rgb(30, 56, 51);
+    color:rgb(182, 241, 187);
     font-size: 1.6em;
 }
 
@@ -77,14 +77,14 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    width: auto;
-    color:rgb(65, 126, 75);
+    width: 90vh;
+    color:rgb(168, 238, 180);
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../media/amunbienvenidos.jpg");
+    ,url("media/amunbienvenidos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
