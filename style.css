@@ -33,6 +33,8 @@ button:hover{
     margin: auto;
 }
 
+.color-acento{ color: green;}
+
 header{
     background-color: rgb(42, 107, 51);
 }
@@ -89,4 +91,73 @@ header a:hover{
     background-size: cover;
     background-position: center center;
 
+}
+
+#hero h1 {
+    color: white
+}
+
+#ceamun {
+
+}
+
+#ceamun .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#espacios-proyectos {
+    background-color: rgb(30,30,30);
+    color: aliceblue;
+    text-align: center;
+}
+
+#espacios-proyectos .container {
+    text-align: center;
+    padding: 200px 0px;
+    
+}
+
+#espacios-proyectos h2{
+    margin-top: 0;
+}
+
+#espacios-proyectos .espaciosinfo{
+
+}
+
+.espaciosinfo:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/premium_photo-1661380797814-d0bcc01342b7.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.espaciosinfo:nth-child(2){
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/tardes_deport-6.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.espaciosinfo:nth-child(3){
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/funciones-psicologo-infantil-800x450.width-640.jpg");
+    background-position: center center;
+    background-size: cover;
 }
