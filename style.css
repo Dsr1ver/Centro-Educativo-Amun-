@@ -233,5 +233,42 @@ footer p{
 
 
 @media (min-width: 720px) {
+    header { 
+    
+    position: fixed;
+    width: 100%;
+}
+
+
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+   
+    #ceamun .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #ceamun .img-container {
+
+        background-image: url("media/logo_white_2.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 700px;
+        width: 600px;
+        padding: 20px;
+
+        }
+
 
 }
+
