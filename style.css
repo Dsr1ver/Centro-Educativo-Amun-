@@ -82,7 +82,8 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 100vh;
+    height: 400hv;
+    width: 400hv;
     color:rgb(168, 238, 180);
     background-image: linear-gradient(
         0deg,
@@ -103,16 +104,36 @@ header a:hover{
     justify-content: center;
 }
 
-#ceamun {
+#ceamun h2 {
+
+    padding: 10px;
+    margin: 10px;
+    
 
 }
 
 #ceamun .container{
-    background-color: beige;
+    display:flex;
+    flex-direction: row-reverse;
+    height: 100hv;
+    width: 100hv;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 200px 400px;
-    height: 100vh;
-    }
+    flex-direction: column;
+    background-color: beige;
+    
+
+}
+
+#ceamun p{
+    text-align: left;
+    justify-content: left;
+    
+}
+
+
 
 #espacios-proyectos {
     background-color: rgb(30,30,30);
@@ -232,7 +253,7 @@ footer p{
 /** media se agrega para empezar a hacer el desarrollo para desktop **/
 
 
-@media (min-width: 720px) {
+@media (min-width: 720px)   {
     header { 
     
     position: fixed;
@@ -271,4 +292,3 @@ footer p{
 
 
 }
-
